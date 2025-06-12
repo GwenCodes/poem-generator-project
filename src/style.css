@@ -1,7 +1,8 @@
-h1 {
-  text-align: center;
-}
-
 body {
-  text-align: center;
+background-color: rgb(104, 104, 79);
+}
+h1{
+    font-weight: 800;
+    font-size: 36px;
+    line line-height: 1.5;
 }
