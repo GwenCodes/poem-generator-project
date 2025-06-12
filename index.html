@@ -9,25 +9,24 @@
   </head>
 
   <body>
-    <div id="container">
+    <div class="container">
       <header>
         <h1>Hello</h1>
       </header>
       <main>
-        <form action="">
-          <input
-            type="text"
-            placeholder="Enter the topic of the French poem"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions" />
-          <input type="submit" class="submit-button" />
-        </form>
-
-        <div>This is where the poem will be.</div>
-
-        <div>This is where the poem will be.</div>
+        <div class="form-container">
+          <form id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the topic of the French poem"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions" />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="poem" id="poem"></div>
+          
       </main>
 
       <footer>
