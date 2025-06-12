@@ -16,7 +16,7 @@ function generatePoem(event) {
   let apiKey = "61dfa07e8o8462teba3fadad30e70d77"; //step 6; build api url ad api key
   //step 7; make a call to the api url
   let context =
-    "You are a romantic poem expert and love to write short poems. You mission is to generate a 4 line poem in basic HTML and separate each line with a <br />. Make sure to follow the user instructions. Do not include a title to the poem. Sign the poem with 'SheCodes AI' inside a <strong> element at the end of the poem and NOT at the beginning";
+    "You are a romantic poem expert and love to write short poems. You mission is to generate a 4 line poem and separate each line with a <br />. Make sure to follow the user instructions. Do not include a title to the poem. Sign the poem with 'SheCodes AI' inside a <strong> element";
   let prompt = `User instructions: Generate a poem about ${instructionsInput.value}`;
   let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
