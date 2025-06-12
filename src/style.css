@@ -1,8 +1,14 @@
 body {
-background-color: rgb(104, 104, 79);
+  background-color: rgb(104, 104, 79);
 }
-h1{
-    font-weight: 800;
-    font-size: 36px;
-    line line-height: 1.5;
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: blue;
 }
